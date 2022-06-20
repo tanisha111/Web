@@ -1,6 +1,7 @@
+
 let timerId,
-    sound = new Audio(); //использую нативный плеер. Не удалось найти скрипт под es модули для Howler, в отличии от luxon.
-    sound.src = './sound/z_uki-dlya-_ideo-z_uk-gonga.mp3';
+    sound = new Audio();
+    sound.src = '../sound/sound.mp3';
     sound.loop = false;
 
 export function setTimer(time, el){
